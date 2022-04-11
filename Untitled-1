@@ -2,6 +2,8 @@
 <html>
     <head>
         <meta charset="UFT-8">
+        <title>DAT101 Section 003</title>
+
     </head>
     <body>
         <h1><strong>Heading sise One</strong></h1>
@@ -11,6 +13,7 @@
         <h5>Heading size Five</h5>
         <h6>Heading size Six</h6>
         <br>
+        <h3 id="top"><a href="#bottom">Go to bottmo</a></h3>
         <div>
             <p><strong>This is class 003!!!</strong></p>
             <p><i>Welcom to Solbridge</i></p>
@@ -27,5 +30,49 @@
             <li>Classmate 1</li>
             <li>Classmate 2</li>
         </ul>
+        <img scr="https://pin.it/2p70ejm">
+        <br>
+        <br>
+        <br>
+        <div>
+            <form>
+                <fieldset>
+                    <legend><h3>Here are all the user input types:</h3></legend>
+                    
+                    <input type="text" size="200" placeholder="Type something here!!! Column space size = 200"><br><br>
+                    <input type="button" value="value" onclick="alert('Sucessful')"> <br><br>
+                    <button type="buttom">Click me here!!!!</button>
+                    <h3>Please enter your email: <span><input type="email"></span></h3>
+                    <h3>Please enter your password: <span><input type="password"></span></h3>
+                    <h3>What's for lunch?</h3>
+                    <input type="radio" id="Sandwich" name="Lunch">
+                    <laber for="Sandwich">Sandwich</laber><br>
+
+                    <input tupe="radio" id="Gimbap" name="Lunch">
+                    <laber for="Gimbap">Gimbap</laber><br>
+                
+                    <h3>What to drink?</h3>
+                    <input type="checkbox"><laber>Cola</laber><br>
+                    <input type="checkbox"><laber>Ceder</laber><br>
+                    <br>
+                    <input typr="submit" value="submit">
+                    <br>
+                    <h3>Please leave your comments below:</h3>
+                    <textarea rows="10" cols="100"></textarea>
+                    <br>
+                    <br>
+                    <h3> How do you rate the webpadge?</h3>
+
+                    <select style="text-aligh: center; front-size: lardge;">
+                        <option value="a" selected>Choose below</option>
+                        <option velue="b">Brillant</option>
+                        <option value="c">Pretty alright</option>
+                        <option value="d">So-so</option>
+                        <option value="e">Useless!</option>
+                    </select>
+                </fieldset>
+            </form>
+        </div>
+        <h2 id="bottom"><a href="#top">Go to top</a></h2>
     </body>
 </html>
